@@ -9,7 +9,7 @@ void edit_line(char* buffer, int current_line) {
         ptr++;
     }
 
-\
+
     char* line_end = strchr(ptr, '\n');
     if (!line_end) line_end = ptr + strlen(ptr);
 
